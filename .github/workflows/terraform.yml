@@ -33,7 +33,7 @@ jobs:
          uses: actions/checkout@v4
 
        - name: Steup Terraform with specified version on the runner
-         uses: hasicorp/setup-terraform@v3
+         uses: hashicorp/setup-terraform@v3
          #with:
            
        - name: Terraform init
